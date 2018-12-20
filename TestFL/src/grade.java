@@ -10,13 +10,14 @@ public class grade {
 		// a new eclipse on the school computer.
 		// I might run it off a flash drive, We'll see. Anyway, back to making a
 		// program.
+		// Change of plans. Using github now. Works pretty well if you ask me.
 
 		int[] tests = new int[50];
 		int grade;
 		int gradeCounter = 1;
 		int counter = 0;
 
-		System.out.println("Enter up to 50 grades");
+		System.out.println("Enter up to 50 grades and -1 to quit");
 		Scanner in = new Scanner(System.in);
 		System.out.printf("Grade %d: ", gradeCounter);
 		grade = in.nextInt();
